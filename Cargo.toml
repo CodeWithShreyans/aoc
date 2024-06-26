@@ -1,0 +1,11 @@
+[package]
+name = "aoc-2023"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "day3"
+path = "days/3/solution.rs"
+
+[dependencies]
+regex = "1.10.2"

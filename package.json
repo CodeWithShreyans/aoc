@@ -2,5 +2,9 @@
   "dependencies": {},
   "devDependencies": {
     "bun-types": "^1.0.14"
+  },
+  "prettier": {
+    "tabWidth": 4,
+    "semi": false
   }
 }

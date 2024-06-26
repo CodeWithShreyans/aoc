@@ -1,0 +1,25 @@
+# dune exec aoc_2023
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /Users/shreyans/.cache/dune/db
+# Workspace root: /Users/shreyans/projects/personal/aoc-2023
+# Auto-detected concurrency: 8
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; installed_env =
+#      map
+#        { "INSIDE_DUNE" :
+#            "/Users/shreyans/projects/personal/aoc-2023/_build/default"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; instrument_with = []
+#  }
+$ /Users/shreyans/.opam/default/bin/ocamlc.opt -config > /var/folders/by/7nkq7pv506q2wxp6mhwtkmd40000gn/T/dune_4c4707_output
+$ (cd _build/default && /Users/shreyans/.opam/default/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I days/5/.solution.eobjs/byte -I days/5/.solution.eobjs/native -intf-suffix .ml -no-alias-deps -opaque -o days/5/.solution.eobjs/native/dune__exe__Solution.cmx -c -impl days/5/solution.ml)
+$ (cd _build/default && /Users/shreyans/.opam/default/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o days/5/solution.exe days/5/.solution.eobjs/native/dune__exe__Solution.cmx)
