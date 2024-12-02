@@ -1,0 +1,6 @@
+{
+    "dependencies": {
+        "@types/bun": "^1.1.14"
+    },
+    "devDependencies": {}
+}
